@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		413142131E509FAA0003C4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413142121E509FAA0003C4C0 /* AppDelegate.swift */; };
-		413142151E509FAA0003C4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413142141E509FAA0003C4C0 /* ViewController.swift */; };
+		413142151E509FAA0003C4C0 /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413142141E509FAA0003C4C0 /* EmojiController.swift */; };
 		413142181E509FAA0003C4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413142161E509FAA0003C4C0 /* Main.storyboard */; };
 		4131421A1E509FAA0003C4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413142191E509FAA0003C4C0 /* Assets.xcassets */; };
 		4131421D1E509FAA0003C4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4131421B1E509FAA0003C4C0 /* LaunchScreen.storyboard */; };
+		4131422B1E50A1580003C4C0 /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131422A1E50A1580003C4C0 /* EmojiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4131420F1E509FAA0003C4C0 /* HelloAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413142121E509FAA0003C4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		413142141E509FAA0003C4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		413142141E509FAA0003C4C0 /* EmojiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
 		413142171E509FAA0003C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		413142191E509FAA0003C4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4131421C1E509FAA0003C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4131421E1E509FAA0003C4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4131422A1E50A1580003C4C0 /* EmojiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,7 @@
 		413142111E509FAA0003C4C0 /* HelloAppleWatch */ = {
 			isa = PBXGroup;
 			children = (
-				413142281E509FE30003C4C0 /* Model */,
-				413142271E509FDE0003C4C0 /* View */,
+				413142281E509FE30003C4C0 /* Source */,
 				413142261E509FD70003C4C0 /* Controller */,
 				413142291E509FF30003C4C0 /* Storyboard */,
 				413142251E509FD20003C4C0 /* Root */,
@@ -85,23 +86,17 @@
 		413142261E509FD70003C4C0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				413142141E509FAA0003C4C0 /* ViewController.swift */,
+				413142141E509FAA0003C4C0 /* EmojiController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		413142271E509FDE0003C4C0 /* View */ = {
+		413142281E509FE30003C4C0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4131422A1E50A1580003C4C0 /* EmojiData.swift */,
 			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		413142281E509FE30003C4C0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
+			name = Source;
 			sourceTree = "<group>";
 		};
 		413142291E509FF30003C4C0 /* Storyboard */ = {
@@ -185,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413142151E509FAA0003C4C0 /* ViewController.swift in Sources */,
+				413142151E509FAA0003C4C0 /* EmojiController.swift in Sources */,
+				4131422B1E50A1580003C4C0 /* EmojiData.swift in Sources */,
 				413142131E509FAA0003C4C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
