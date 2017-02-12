@@ -54,14 +54,62 @@
 		413142111E509FAA0003C4C0 /* HelloAppleWatch */ = {
 			isa = PBXGroup;
 			children = (
-				413142121E509FAA0003C4C0 /* AppDelegate.swift */,
-				413142141E509FAA0003C4C0 /* ViewController.swift */,
-				413142161E509FAA0003C4C0 /* Main.storyboard */,
-				413142191E509FAA0003C4C0 /* Assets.xcassets */,
-				4131421B1E509FAA0003C4C0 /* LaunchScreen.storyboard */,
-				4131421E1E509FAA0003C4C0 /* Info.plist */,
+				413142281E509FE30003C4C0 /* Model */,
+				413142271E509FDE0003C4C0 /* View */,
+				413142261E509FD70003C4C0 /* Controller */,
+				413142291E509FF30003C4C0 /* Storyboard */,
+				413142251E509FD20003C4C0 /* Root */,
+				413142241E509FCC0003C4C0 /* Resources */,
 			);
 			path = HelloAppleWatch;
+			sourceTree = "<group>";
+		};
+		413142241E509FCC0003C4C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4131421E1E509FAA0003C4C0 /* Info.plist */,
+				4131421B1E509FAA0003C4C0 /* LaunchScreen.storyboard */,
+				413142191E509FAA0003C4C0 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		413142251E509FD20003C4C0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				413142121E509FAA0003C4C0 /* AppDelegate.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		413142261E509FD70003C4C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				413142141E509FAA0003C4C0 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		413142271E509FDE0003C4C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		413142281E509FE30003C4C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		413142291E509FF30003C4C0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				413142161E509FAA0003C4C0 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
